@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+}
+body {
+    background-color: azure;
+}
+.logo img {
+    display: inline-flex;
+    width: 80px;
+    margin: 0.75rem;
+}
+.banner {
+    text-align: center;
+    background-image: url(./Images/background-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+}
+.title {
+    color: white;
+    font-size: 3.5rem;
+}
+nav li {
+    display: inline-flex;
+    align-items: center;
+    margin: 0 1rem;
+    margin-top: 0.1rem;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: greenyellow;
+}
+h2 {
+    text-align: center;
+    margin: 1.5rem;
+    font-size: 2rem;
+}
+h3 {
+    font-weight: bold;
+}
+h4 {
+    font-weight: lighter;
+}
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.description-box img {
+    width: 275px;
+    height: 275px;
+    margin-bottom: 0.5rem;
+    min-height: 200px;
+
+}
+.description-box {
+    background-color: aliceblue;
+    border: 1px solid grey;
+    width: 275px;
+    height: 375px;
+    margin: 1rem;
+    text-align: justify;
+}
+.team-members {
+    display: flex;
+    background-image: url(./Images/background-team.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    color: white;
+}
+.team-box img {
+    height: 300px;
+    width: 250px;
+}
+.contact {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    justify-content: center;
+    line-height: 50px;
+}
+.contact h4 {
+    font-weight: bolder;
+}
+#contact-us img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+button {
+    display: flex;
+    color: white;
+    font-weight: bolder;
+    justify-content: center;
+    background: green;
+    width: 300px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 25px 50px;
+    box-shadow: 0px 5px black;
+}
+button:hover {
+    cursor: pointer;
+}
+button:active {
+    margin-top: 15px;
+    color: black;
+    box-shadow: 0px 0px;
+}
